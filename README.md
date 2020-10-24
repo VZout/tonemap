@@ -1,9 +1,9 @@
 <h3 align="center">
 🎨 tonemap
 <br><br>
-  <img alt="Crates.io" src="https://img.shields.io/crates/v/tonemap?style=flat-square">
-  <img alt="Crates.io" src="https://img.shields.io/crates/l/tonemap?style=flat-square">
-  <img alt="Crates.io" src="https://img.shields.io/crates/d/tonemap?style=flat-square">
+  <a href="https://crates.io/crates/tonemap"><img alt="Crates.io" src="https://img.shields.io/crates/v/tonemap?style=flat-square"></a>
+  <a href="https://crates.io/crates/tonemap"><img alt="Crates.io" src="https://img.shields.io/crates/l/tonemap?style=flat-square"></a>
+  <a href="https://crates.io/crates/tonemap"><img alt="Crates.io" src="https://img.shields.io/crates/d/tonemap?style=flat-square"></a>
 </h3>
 
 
