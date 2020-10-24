@@ -30,9 +30,22 @@ glam::Vec3::zero().filmic();
 
 ## Algorithms
 
-* [x] Filmic
+* [ ] Linear
 * [ ] Reinhard
 * [ ] ACES
+  * High Quality
+  * High Performance
+* [ ] Unreal 3
+* [ ] Lottes
+* [ ] Uchimura
+* [x] Filmic
+* [ ] RomBinDaHouse
+* [ ] Reinhard
+  * Simple
+  * Luma Based
+  * White Preserving
+* [ ] Haarm-Peter Duiker
+* [ ] Uncharted 2 
 
 ## Third party libraries
 
