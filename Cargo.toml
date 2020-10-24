@@ -7,4 +7,9 @@ edition = "2018"
 keywords = ["gamedev", "graphics", "rust-gpu"]
 license = "MIT OR Apache-2.0"
 
+[features]
+default = ["glam_support"]
+glam_support = ["glam"]
+
 [dependencies]
+glam = { version = "0.9.5", optional = true }
