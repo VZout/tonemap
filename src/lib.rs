@@ -1,6 +1,5 @@
-mod filmic;
-#[allow(unused)]
-use filmic::*;
+pub mod filmic;
+pub use filmic::*;
 
 #[cfg(test)]
 mod tests {
