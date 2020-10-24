@@ -15,4 +15,4 @@ spirv-std-support = ["spirv-std"]
 
 [dependencies]
 glam = { version = "0.9.5", optional = true }
-spirv-std = { git = "https://github.com/EmbarkStudios/rust-gpu", branch = "main", optional = true }
+spirv-std = { version = "0.1.0", git = "https://github.com/EmbarkStudios/rust-gpu", branch = "main", optional = true }
