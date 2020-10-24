@@ -48,6 +48,7 @@ glam::Vec3::zero().filmic();
   * White Preserving
 * [ ] Haarm-Peter Duiker
 * [ ] Uncharted 2 
+* [ ] Sigmoid Contrast
 
 ## Third party libraries
 
