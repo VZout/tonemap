@@ -30,6 +30,8 @@ glam::Vec3::zero().filmic();
 
 ## Algorithms
 
+* [ ] Exposure Correct
+* [ ] Gamma Correct
 * [ ] Linear
 * [ ] Reinhard
 * [ ] ACES
