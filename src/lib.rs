@@ -11,6 +11,6 @@ mod tests {
         0f32.filmic();
         [0f32, 0f32, 0f32].filmic();
         #[cfg(feature = "glam_support")]
-        glam::Vec3::new(0f32, 0f32, 0f32).filmic();
+        glam::Vec3::zero().filmic();
     }
 }
