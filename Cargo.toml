@@ -1,7 +1,7 @@
 [package]
 name = "tonemap"
 description = "A collection of tonemapping algorithms"
-version = "0.0.3"
+version = "0.0.4"
 authors = ["Viktor Zoutman <viktor.zoutman@embark-studios.com>"]
 edition = "2018"
 keywords = ["gamedev", "graphics", "rust-gpu"]
