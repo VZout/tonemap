@@ -9,8 +9,10 @@ license = "MIT"
 repository = "https://github.com/VZout/tonemap/tree/main"
 
 [features]
-default = ["glam_support"]
-glam_support = ["glam"]
+default = []
+glam-support = ["glam"]
+spirv-std-support = ["spirv-std"]
 
 [dependencies]
 glam = { version = "0.9.5", optional = true }
+spirv-std = { git = "https://github.com/EmbarkStudios/rust-gpu", branch = "main", optional = true }

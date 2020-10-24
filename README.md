@@ -20,6 +20,8 @@
 ## Usage
 
 ```rust
+use tonemap::filmic::*;
+
 0f32.filmic();
 [0f32, 0f32, 0f32].filmic();
 glam::Vec3::zero().filmic();
@@ -39,3 +41,4 @@ The tone mapping traits are implemented for the following libraries as well:
 | feature | library |
 | - | - |
 | `glam_support` | [glam](https://docs.rs/glam/0.9.5/glam/index.html) |
+| `spirv-std-support` | [spirv-std](https://github.com/EmbarkStudios/rust-gpu) |

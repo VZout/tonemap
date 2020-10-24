@@ -1,5 +1,4 @@
 pub mod filmic;
-pub use filmic::*;
 
 #[cfg(test)]
 mod tests {
@@ -9,7 +8,9 @@ mod tests {
     fn filmic() {
         0f32.filmic();
         [0f32, 0f32, 0f32].filmic();
-        #[cfg(feature = "glam_support")]
+        #[cfg(feature = "glam-support")]
         glam::Vec3::zero().filmic();
+        #[cfg(feature = "spirv-std-support")]
+        spirv_std::Vec3::zero().filmic();
     }
 }

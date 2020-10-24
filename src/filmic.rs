@@ -15,9 +15,16 @@ impl Filmic for [f32; 3] {
     }
 }
 
-#[cfg(feature = "glam_support")]
+#[cfg(feature = "glam-support")]
 impl Filmic for glam::Vec3 {
     fn filmic(self) -> glam::Vec3 {
         glam::Vec3::new(self.x().filmic(), self.y().filmic(), self.z().filmic())
+    }
+}
+
+#[cfg(feature = "spirv-std-support")]
+impl Filmic for spirv_std::Vec3 {
+    fn filmic(self) -> spirv_std::Vec3 {
+        spirv_std::Vec3::new(self.x().filmic(), self.y().filmic(), self.z().filmic())
     }
 }
