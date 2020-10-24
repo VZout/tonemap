@@ -1,0 +1,10 @@
+[package]
+name = "tonemap"
+description = "A collection of tonemapping algorithms"
+version = "0.0.1"
+authors = ["VZout <viktor.zoutman@embark-studios.com>"]
+edition = "2018"
+keywords = ["gamedev", "graphics", "rust-gpu"]
+license = "MIT OR Apache-2.0"
+
+[dependencies]
